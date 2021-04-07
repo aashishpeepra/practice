@@ -1,0 +1,31 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 40px;
+
+  width: 7rem;
+  height: 2.6rem;
+
+  /* brand/primary */
+  border: 2px solid #9592ff;
+  box-sizing: border-box;
+  border-radius: 24px;
+  background-color: inherit;
+  font-family: SF Pro Display,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+ 
+
+  /* brand/primary */
+  color: #9592ff;
+  cursor: pointer;
+}
+.btn_big{
+  width: 20rem;
+  border: 1px solid #9592ff;
+}

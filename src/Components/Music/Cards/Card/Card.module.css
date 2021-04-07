@@ -1,0 +1,64 @@
+.music_card {
+  display: flex;
+  align-items: center;
+  padding: 16px 0px 0px;
+  flex-direction: column;
+  width: 304px;
+  height: 360px;
+  position: relative;
+    margin: 1rem 1rem;
+  /* background/primary */
+  background: #212121;
+  border-radius: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.music_card_play {
+  position: absolute;
+  width: 128px;
+  height: 2px;
+  left: 0px;
+  top: 302px;
+
+  /* brand/primary */
+  background: #9592ff;
+}
+.music_card_info {
+  margin-top: 1.6rem;
+  display: flex;
+  justify-content: flex-start;
+  width: 90%;
+  align-items: center;
+}
+.music_card_info_left_data{
+    display: flex;
+}
+.music_card_info_left h6 {
+  font-family: SF Pro Display, sans-serif;
+
+  font-weight: normal;
+  font-size: 0.7rem;
+  line-height: 12px;
+
+  /* identical to box height, or 120% */
+
+  /* content/secondary */
+  color: #b9b9c9;
+  margin-bottom: 0.2rem;
+}
+.music_card_info_left span {
+  font-size: 1rem;
+  color: #fff;
+  width: 40%;;
+  line-height: 1.2rem;
+}
+.music_card_info_right {
+  margin-left: auto;
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+}
+.music_card_info_right_img{
+    cursor: pointer;
+}
